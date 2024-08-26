@@ -7,6 +7,6 @@
         "mongoose": "^8.4.4"
     },
     "scripts": {
-        "start": "node --watch app"
+        "start": "node app"
     }
 }
