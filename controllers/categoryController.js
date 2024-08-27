@@ -28,7 +28,7 @@ exports.showCategory = (req,res) => {
 exports.createCategory = (req,res) => {
     let {code,name} = req.body;
     console.log(req.body)
-    return  Category
+           Category
             .create({code,name})
             .then((data)=> {
             res.status(201).send(data);
